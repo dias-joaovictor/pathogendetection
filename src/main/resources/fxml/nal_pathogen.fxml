@@ -11,7 +11,7 @@
       <Button fx:id="btnConvert" layoutX="273.0" layoutY="306.0" mnemonicParsing="false" onAction="#convertFile" text="Generate" />
       <TextField fx:id="selectedFilePath" layoutX="127.0" layoutY="126.0" prefHeight="27.0" prefWidth="344.0" />
       <TextField fx:id="selectedOutputPath" layoutX="127.0" layoutY="173.0" prefHeight="27.0" prefWidth="344.0" />
-      <Label layoutX="21.0" layoutY="131.0" prefHeight="17.0" prefWidth="55.0" text="Fasta file" />
+      <Label layoutX="21.0" layoutY="131.0" prefHeight="17.0" prefWidth="55.0" text="CSV file" />
       <Label layoutX="21.0" layoutY="178.0" prefHeight="17.0" prefWidth="79.0" text="Output folder" />
       <Label layoutX="186.0" layoutY="57.0" prefHeight="21.0" prefWidth="227.0" text="PATHOGEN DETECTOR - BETA" />
       <Button fx:id="btnSelectFile" layoutX="487.0" layoutY="126.0" mnemonicParsing="false" onAction="#selectFile" text="Select file" />
