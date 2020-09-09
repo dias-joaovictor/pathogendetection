@@ -72,9 +72,6 @@ public class PathogenDetectionGeneratorController implements Initializable {
 		if (this.outputFolder == null) {
 			throw new ProcessException("output folder is undefined");
 		}
-		if (this.outputFolder.listFiles().length != 0) {
-			throw new ProcessException("the output folder must be empty. Please create a new output folder");
-		}
 
 	}
 
