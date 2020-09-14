@@ -1,0 +1,7 @@
+org\nal\pathogendetection\controller\HelloController.class
+org\nal\pathogendetection\controller\PathogenDetectionGeneratorController.class
+org\nal\pathogendetection\exception\ProcessException.class
+org\nal\pathogendetection\service\PathogenDetectorGeneratorService.class
+org\nal\pathogendetection\model\FilePathogenDetected.class
+org\nal\pathogendetection\MainApp.class
+org\nal\pathogendetection\model\PathogenValue.class

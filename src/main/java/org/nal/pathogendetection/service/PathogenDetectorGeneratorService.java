@@ -106,14 +106,12 @@ public final class PathogenDetectorGeneratorService {
 			throw new ProcessException("The file is empty");
 		}
 		if (!getDefaultFileHeader().equals(values.get(0))) {
-			throw new ProcessException("The file is invalid");
+			throw new ProcessException("The file is invalid. CSV Header doesn`t match with the model`s header");
 		}
 	}
 
 	private static String getDefaultFileHeader() {
-		return getAllLinesInFile(
-				new File(PathogenDetectorGeneratorService.class.getResource("/filemodel/model.csv").getPath())).get(0)
-						.replace("\\r|\\r\\n|\\n", "");
+		return "lineName|value";
 	}
 
 	private static List<String> getAllLinesInFile(final File file) {
